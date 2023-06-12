@@ -3,6 +3,8 @@ form h3{
     font-weight: 500;
     line-height: 42px;
     text-align: center;
+    color: #000205;
+   
 
 }
 
@@ -11,6 +13,7 @@ label{
     margin-top: 30px;
     font-size: 16px;
     font-weight: 500;
+    color: #000205;
 
 }
 
@@ -26,7 +29,7 @@ input{
     font-weight: 300;
 }
 body{
-    background-color: rgb(78, 25, 25);
+    background-color: rgb(52, 53, 3);
 }
 .background {
     width: 430px;
@@ -56,6 +59,7 @@ button{
 .social {
     margin-top: 30px;
     display: flex;
+    
 }
 .social div {
     background: red;
@@ -83,7 +87,7 @@ button{
 form{
     height: 520px;
     width: 400px;
-    background-color: rgb(131, 21, 21);
+    background-color: rgb(211, 130, 25);
     position: absolute;
     transform: translate(-50%, 50%);
     top: 25%;
