@@ -66,3 +66,12 @@ button{
     color: #eaf0fb;
     text-align: center;
 }
+.social div:hover{
+    background-color: rgb(56, 214, 206);
+}
+.social.fb {
+    margin-left: 25px;
+}
+.social i {
+    margin-right: 4px;
+}
