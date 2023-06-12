@@ -62,14 +62,14 @@ button{
     width: 150px;
     border-radius: 3px;
     padding: 5px 10px 10px 5px;
-    background-color: rgb(56, 214, 206);
+    background-color: blue;
     color: #eaf0fb;
     text-align: center;
 }
 .social div:hover{
-    background-color: rgb(56, 214, 206);
+    background-color: rgb(75, 75, 114);
 }
-.social.fb {
+.social .fb {
     margin-left: 25px;
 }
 .social i {
