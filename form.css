@@ -3,17 +3,18 @@ form h3{
     font-weight: 500;
     line-height: 42px;
     text-align: center;
-    color: #cbd7e9;
+    color: #b11d1d;
+   
    
 
 }
 
-label{
+label {
     display: block;
     margin-top: 30px;
     font-size: 16px;
     font-weight: 500;
-    color: #000205;
+    color: #b11d1d;
 
 }
 
@@ -29,10 +30,11 @@ input{
     font-weight: 300;
 }
 body{
-    /*background-color: rgb(52, 53, 3);*/
+    
     background-image: url(backgound.jpg);
-    backdrop-filter: blur(10px);
-    background-size: auto;
+    backdrop-filter: blur(100%);
+    background-size: cover;
+    
     
     
 }
@@ -47,18 +49,19 @@ body{
     top: -80px;
 }
 ::placeholder{
-    color: brown;
+    color:black;
 }
-button{
+button {
     margin-top: 50px;
     width: 100;
-    background-color: #be2828;
+    background-color: rgb(14, 49, 38);
     color:#1845ad;
     padding: 15px 0;
     font-size: 18px;
     font-weight: 600;
     border-radius: 5px;
     cursor: pointer;
+    
 }
 .social {
     margin-top: 30px;
@@ -79,9 +82,20 @@ button{
 }
 .social .fb {
     margin-left: 25px;
+    border-radius: 50px;
+    margin-top: 25px;
+}
+.social .go{
+    background-color: #f11212;
+    border-radius: 50px;
+    
+    margin-top: 25px;
+
 }
 .social i {
     margin-right: 4px;
+    margin-top: 25px;
+    
 }
 .shape:last-child{
     background: linear-gradient(to right, #ff512f,#f09819);
@@ -101,6 +115,7 @@ form{
     border: 2px solid rgb(10, 1, 15);
     box-shadow: 0 0 40px rgb(7, 20, 16);
     padding: 50px 35px;
+    background: transparent;
 }
 form * {
     font-family: "Poppins",sans-serif;
