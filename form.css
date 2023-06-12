@@ -18,7 +18,7 @@ input{
     display: block;
     height: 50px;
     width: 100%;
-    background-color: beige;
+    background-color: rgb(132, 189, 221);
     border-radius: 3px;
     padding: 0 10px;
     margin-top: 8px;
@@ -26,7 +26,7 @@ input{
     font-weight: 300;
 }
 body{
-    background-color: rgb(128, 106, 106);
+    background-color: rgb(78, 25, 25);
 }
 .background {
     width: 430px;
@@ -45,7 +45,7 @@ body{
 button{
     margin-top: 50px;
     width: 100;
-    background-color: #ffffff;
+    background-color: #be2828;
     color:#1845ad;
     padding: 15px 0;
     font-size: 18px;
@@ -63,7 +63,7 @@ button{
     border-radius: 3px;
     padding: 5px 10px 10px 5px;
     background-color: blue;
-    color: #eaf0fb;
+    color: #000205;
     text-align: center;
 }
 .social div:hover{
@@ -83,14 +83,21 @@ button{
 form{
     height: 520px;
     width: 400px;
-    background-color: aquamarine;
+    background-color: rgb(131, 21, 21);
     position: absolute;
     transform: translate(-50%, 50%);
-    top: 50%;
+    top: 25%;
     left: 50%;
     border-radius: 10px;
     backdrop-filter: blur(10px);
-    border: 2px solid aquamarine;
-    box-shadow: 0 0 40px aquamarine;
+    border: 2px solid rgb(10, 1, 15);
+    box-shadow: 0 0 40px rgb(7, 20, 16);
     padding: 50px 35px;
+}
+form * {
+    font-family: "Poppins",sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
 }
