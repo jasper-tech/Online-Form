@@ -53,3 +53,16 @@ button{
     border-radius: 5px;
     cursor: pointer;
 }
+.social {
+    margin-top: 30px;
+    display: flex;
+}
+.social div {
+    background: red;
+    width: 150px;
+    border-radius: 3px;
+    padding: 5px 10px 10px 5px;
+    background-color: rgb(56, 214, 206);
+    color: #eaf0fb;
+    text-align: center;
+}
