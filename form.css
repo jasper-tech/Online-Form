@@ -3,7 +3,7 @@ form h3{
     font-weight: 500;
     line-height: 42px;
     text-align: center;
-    color: #000205;
+    color: #cbd7e9;
    
 
 }
@@ -21,7 +21,7 @@ input{
     display: block;
     height: 50px;
     width: 100%;
-    background-color: rgb(132, 189, 221);
+    background-color: rgb(29, 125, 180);
     border-radius: 3px;
     padding: 0 10px;
     margin-top: 8px;
@@ -29,11 +29,15 @@ input{
     font-weight: 300;
 }
 body{
-    background-color: rgb(52, 53, 3);
+    /*background-color: rgb(52, 53, 3);*/
+    background-image: url(backgound.jpg);
+    backdrop-filter: blur(10px);
+    background-size: auto;
+    
+    
 }
 .background {
-    width: 430px;
-    height: 480px;
+    height: fit-content;
     position: absolute;
     border-radius: 50%;
 }
@@ -87,10 +91,10 @@ button{
 form{
     height: 520px;
     width: 400px;
-    background-color: rgb(211, 130, 25);
+    background-color: rgb(24, 23, 23);
     position: absolute;
     transform: translate(-50%, 50%);
-    top: 25%;
+    top: 0%;
     left: 50%;
     border-radius: 10px;
     backdrop-filter: blur(10px);
