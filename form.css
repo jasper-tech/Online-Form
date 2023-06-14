@@ -51,7 +51,7 @@ body{
 ::placeholder{
     color:black;
 }
-button {
+button{
     margin-top: 50px;
     width: 100;
     background-color: rgb(10, 80, 58);
